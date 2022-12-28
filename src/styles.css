@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@300;400;600&display=swap');
+
+.main-card {
+    font-family: 'Gothic A1', sans-serif;
+    border-radius: 50%/30px;
+    /* TEXT SHADOW: offset-x | offset-y | color */
+    text-shadow: 1.5px 0px rgb(188, 187, 187);
+    background-color: #fedd77;
+    width: 21rem;
+    box-shadow: 3.5px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+    font-family: "Comfortaa", cursive;
+    font-size: 3.8rem;
+}
+
+.bg-highlight {
+    background-color: #ffea5d;
+}
+
+.text-content {
+    font-size: 1.8rem;
+    /* 24px */
+    line-height: 2.25rem;
+    /* 32px */
+}
+
+.foot {
+    border-bottom-left-radius: 10% 37%;
+    border-bottom-right-radius: 10% 37%;
+    border-top-left-radius: 10% 37%;
+    border-top-right-radius: 10% 37%;
+}
+
+.allow-overlap {
+    max-height: 3rem;
+    max-width: 20rem;
+}
+
+.overlap-img {
+    /* Shifts the img 1 rem right  without altering parent div*/
+    position: relative;
+    left: 1rem;
+}
+
+.text-xsm{
+    font-size: .7rem;
+}

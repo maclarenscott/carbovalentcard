@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--include styles.css-->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="bg-gray-100 font-sans ">
+    <main class="container">
+      <!--
+      Card with three rows,
+      first row shows a logo with a heading and subheading,
+      second row shows 4 lines of stats
+      third row shows an id and a logout button
+    -->
+      <div
+        class="font-extralight bg-white shadow-lg py-8 px-0 m-auto  main-card"
+      >
+        <div class="grid justify-items-center px-3 py-2">
+          <div class="flex rounded-full items-center bg-highlight px-2 py-6">
+            <h1 class="text-white w-100 mr-2">68432</h1>
+            <img
+              src="./img/headimg.png"
+              alt="Tailwind CSS Logo"
+              class="w-24 h-24 "
+            />
+          </div>
+
+          <div class="ml-4">
+            <p class="text-white px-10">renewable energy carbon credit units</p>
+          </div>
+        </div>
+        <div class="mt-4 bg-highlight px-4 text-2xl text-white text-content">
+          <div class="px-2 py-6 grid grid-rows-4">
+            <div class="content-center flex-1">
+              <p class=" ">Project: Wind Energy</p>
+            </div>
+            <div class="content-center flex-1">
+              <p class=" ">Location: India</p>
+            </div>
+            <div class="content-center flex-1">
+              <p class=" ">Source: GS</p>
+            </div>
+            <div class="content-center flex-1">
+              <p class=" ">Vintage: 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex foot rounded-full items-center bg-highlight px-2 py-2 grid-cols-2 mt-5 mx-auto allow-overlap">
+          <div class="grid grid-rows-2">
+          <p class="text-sm text-white w-100 mr-2 ">ID: IN-5-277480604-2-2-0-6484</p>
+          <p class="text-sm text-white w-100 mr-2 ">- IN-5-277549035-2-2-0-6484</p>
+          </div>
+
+          <img
+            src="./img/carbovalentlogo.png"
+            alt="Tailwind CSS Logo"
+            class="w-20 h-20 overlap-img"
+          />
+        </div>
+
+        
+      </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
